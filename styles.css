@@ -1,0 +1,119 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #4B4B4B;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 p img {
+    display: inline;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+/*----------------------------------------------*/
+
+menu {
+    height: 4em;
+    display: flex;
+    align-items: center;    /*vertically center*/
+}
+
+menu span {
+    padding-left: 2em;
+}
+
+menu a {
+    padding-left: 8em;
+}
+
+/*----------------------------------------------*/
+
+.main-l {
+    background-color: blueviolet; /*debug*/
+    width: 30vw;
+    padding-top: 10em;
+}
+
+.main-l h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main-l p {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/*----------------------------------------------*/
+
+.main-r {
+    background-color: aquamarine; /*debug*/
+    width: 30vw;
+    padding-top: 10em;
+}
+
+.main-r img {
+    width: 100%;
+}
+
+/*----------------------------------------------*/
+
+.introduction {
+    background-color: aqua; /*debug*/
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-flex {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 60vw;
+    text-justify: inter-word;
+}
+
+/*----------------------------------------------*/
+
+.whatwedo, .packages, .contactus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*----------------------------------------------*/
+
+.whatwedo {
+    background-color: antiquewhite;
+}
+
+.whatwedo h2 {
+    padding-top: 2em;
+}
+
+/*----------------------------------------------*/
+
+.packages {
+    background-color: red;
+}
+
+.packages h2 {
+    padding-top: 1em;
+}
+
+/*----------------------------------------------*/
+
+.contactus {
+    background-color: green;
+}
+
+.contactus h2 {
+    padding-top: 1em;
+}
