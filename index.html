@@ -6,74 +6,209 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reenie+Beanie&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Trac-Dat</title>
 </head>
 <body>
+    
     <menu>
-        <span>Company name</span>
+        <span>TRAC-DAT</span>
         <a href="#why">What we do</a>
-        <a href="#pac">Packages</a>
-        <a href="#con">Contact Us</a>
+        <a href="#srv">Services</a>
+        <a href="#pkg">Packages</a>
+        <a href="#cnt" id="contact_us_btn">Contact Us</a>
     </menu>
-    <section class="introduction">
-        <div class="introduction-flex">
-            <div class="main-l">
-                <h1>Trac-Dat - The Modern Analytics Solution</h1>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-bg"></div>
+            <div class="hero-text">
+                <h1>Empower <span class="your">your</span> choices with data-driven insights</h1>
                 <p>Trac-Dat is a novel subscription based Business-Intelligence service provider designed to help businesses make smarter, data-driven decisions-without the hefty upfront costs.</p>
             </div>
-            <div class="main-r">
+            <div class="hero-im">
                 <img src="first.png" alt="">
             </div>
         </div>
     </section>
-    <section class="whatwedo" id="why">
-        <h2>Why Trac-Dat?</h2>
-        <div class="">
-            <h3>Affordable and Scalable</h3>
-        </div>
-        <div class="">
-            <h3>Custom BI Solutions</h3>
-        </div>
-        <div class="">
-            <h3>Ongoing Support</h3>
-        </div>
-    </section>
-    <section class="packages" id="pac">
-        <h2>Flexible Packages</h2>
-        <div class="">
-            <h3>Small (S)</h3>
-        </div>
-        <div class="">
-            <h3>Medium (M)</h3>
-        </div>
-        <div class="">
-            <h3>Large (L)</h3>
-        </div>
-    </section>
-    <section class="contactus" id="con">
-        <h2>Why choose Us?</h2>
-        <div class="">
-            <h3>Tailored Solutions</h3>
-        </div>
-        <div class="">
-            <h3>Trusted Technology</h3>
-        </div>
-        <div class="">
-            <h3>Transparent Pricing</h3>
-        </div>
 
-        <div class="contacts">
-            <div class="">
-                <h3>Email</h3>
+    <div class="flex-wrapper">
+        <section class="whatwedo-bg">
+            <div class="whatwedo" id="why">
+                <h2>Why Us?</h2>
+                <div class="whyus_card">
+                    <div class="whyus_text">
+                        <h3>Affordable & Scalable</h3>
+                        <p>Pay only for what you need, and scale as you grow.</p>
+                    </div>
+                    <div class="whyus_im">
+                        <img src="scaleable.png" alt="">
+                    </div>
+                </div>
+                <div class="whyus_card">
+                    <div class="whyus_text wtb">
+                        <h3>Custom BI Solutions</h3>
+                        <p>We tailor dashboards, automated reports, and analytics to fit your goals.</p>
+                    </p>
+                    </div>
+                    <div class="whyus_im wib">
+                        <img src="flow.png" alt="">        
+                    </div>
+                </div>
+                <div class="whyus_card">
+                    <div class="whyus_text">
+                        <h3>Ongoing Support</h3>
+                        <p>We don't just build reports-we maintain, update, and improve them.</p>
+                    </div>
+                    <div class="whyus_im">
+                        <img src="support.png" alt="">        
+                    </div>
+                </div>
             </div>
-            <div class="">
-                <h3>Phone</h3>
-            </div>
-            <div class="">
-                <h3>USA Office</h3>
-            </div>
+        </section>
         </div>
-    </section>
+        <div class="flex-wrapper-wide" id="srv">
+            <section class="core_services">
+                <div class="services_text">
+                    <h2>Our Core Services</h2>
+                    <div class="">
+                        <h3>Automated Reports</h3>
+                        <p>Custom KPI dashboards to monitor success.</p>
+                    </div>
+                    <div class="">
+                        <h3>Performance Tracking</h3>
+                        <p>Stay compliant with industry standards.</p>
+                    </div>
+                    <div class="">
+                        <h3>Regulatory Reporting</h3>
+                        <p>Use AI to forecast trends and minimize risks.</p>
+                    </div>
+                    <div class="">
+                        <h3>Predictive Analytics</h3>
+                        <p>Automate workflows, manage projects and streamline operations.</p>
+                    </div>
+                    <div class="">
+                        <h3>Custom BI tools</h3>
+                        <p>Get real-time dashboards with key business insights.</p>
+                    </div>
+                </div>
+                <div class="services_image">
+                    <img src="core.gif" alt="">
+                    <span>IDEA SAMPLE</span>
+                </div>
+            </section>
+        </div>
+        <section class="s_how_it_works">
+            <div class="s_hiw_wrapper">
+                <div class="s_hiw_card hiw_c1">
+                    <div class="s_hiw_text">
+                        <h3>We Meet</h3>
+                        <p>Understand your business needs.</p>
+                    </div>
+                    <div class="s_hiw_im">
+                        <img src="hs.jpg" alt="">
+                    </div>
+                </div>
+                <div class="s_hiw_card hiw_c2">
+                    <div class="s_hiw_text">
+                        <h3>We Build</h3>
+                        <p>Design and implement a BI solution that integrates seamlessly.</p>
+                    </div>
+                    <div class="s_hiw_im">
+                        <img src="build.jpg" alt="">
+                    </div>
+                </div>
+                <div class="s_hiw_card hiw_c3">
+                    <div class="s_hiw_text">
+                        <h3>You Grow</h3>
+                        <p>Enjoy continuous updates, maintenance and enhancements.</p>
+                    </div>
+                    <div class="s_hiw_im">
+                        <img src="grow.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="packages" id="pkg">
+            <h2>Flexible Packages</h2>
+            <div class="package-flex-wrapper">
+                <div class="package-item">
+                    <h3>Small (S)</h3>
+                    <p class="pkg-price"><span class="pkg-price-num">{Price}</span>$/{unit}</p>
+                    <p>Essential dashboards & KPI tracking for startups.</p>
+                    <img src="ph.png" alt="">
+                </div>
+                <div class="package-item">
+                    <h3>Medium (M)</h3>
+                    <p class="pkg-price"><span class="pkg-price-num">{Price}</span>$/{unit}</p>
+                    <p>Multi-source data integrations & automated workflows.</p>
+                    <img src="ph.png" alt="">
+                </div>
+                <div class="package-item">
+                    <h3>Large (L)</h3>
+                    <p class="pkg-price"><span class="pkg-price-num">{Price}</span>$/{unit}</p>
+                    <p>Advanced analytics, real-time updates and AI-driven insights.</p>
+                    <img src="ph.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section class="wcu">
+            <h2>Why choose Us?</h2>
+            <div class="">
+                <h3>Tailored Solutions</h3>
+                <p>BI that fits your business-not the other way around.</p>
+        
+            </div>
+            <div class="">
+                <h3>Trusted Technology</h3>
+                <p>Powered by Microsoft PowerBI & Azure for security and scalability.</p>
+        
+            </div>
+            <div class="">
+                <h3>Transparent Pricing</h3>
+                <p>Predictable costs with room to grow.</p>
+        
+            </div>    
+        </section>
+
+
+        <section class="contactus" id="cnt">
+            <div class="contacts">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or you would like to work with us, feel free to contact us via email or phone call.</p>
+                <p class="cons"><i class="fa fa-envelope"></i>support@tracdat.com</p>
+                <p class="cons"><i class="fa fa-phone-square" aria-hidden="true"></i>+1NPANXXXXXX</p>
+                <p class="cons"><i class="fa fa-map-marker" aria-hidden="true"></i>Example 12345 Sample Street State, xy</p>
+                </div>
+            </div>
+            <div class="contacts-im">
+                <img src="callus.png" alt="">
+            </div>
+        </section>
+
+    </div>
 </body>
+<footer>
+    <div class="footer-company-logo">
+        <h1>TRAC-DAT</h1>
+        <p>2025@Trac-Dat</p>
+    </div>
+    <div class="footer-links">
+        <a href="#why">What we do</a>
+        <a href="#srv">Services</a>
+        <a href="#pkg">Packages</a>
+    </div>
+
+</footer>
+
 </html>
